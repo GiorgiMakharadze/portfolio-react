@@ -60,10 +60,11 @@ const Banner = () => {
               <span className="wrap"> {text}</span>
             </h1>
             <span>
-              Lorem ipsum dolor, sit amet self-taught adipisicing elit. Nemo
-              eligendi reprehenderit unde culpa architecto quisquam laborum
-              ullam autem quod fugiat magnam saepe, nisi, voluptatem pariatur
-              aperiam corporis quam eius vitae!
+              I'm Self-taught developer. studied programming for 8 months and
+              started my first gig. Continuing to broaden my knowledge while
+              working on small and medium-sized projects as a freelancer. I'm
+              using React/Next.js for Front-end and Node.js for Back-end to
+              solve the problems you got!
             </span>
             <button onClick={() => console.log("connect")}>
               Let's connect <ArrowRightCircle size={25} />
