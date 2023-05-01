@@ -29,17 +29,16 @@
   "dependencies": {
     "animate.css": "^4.1.1",
     "bootstrap": "^5.2.3",
-    "express": "^4.18.2",
+    "cra-template-typescript": "1.2.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-bootstrap-icons": "^1.10.3",
     "react-dom": "^18.2.0",
     "react-multi-carousel": "^2.8.3",
     "react-on-screen": "^2.1.1",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "5.0.1"
   },
   "devDependencies": {
-    "@types/react-dom": "^18.2.1",
-    "typescript": "^3.2.1"
+    "@types/react-dom": "^18.2.1"
   }
 }
