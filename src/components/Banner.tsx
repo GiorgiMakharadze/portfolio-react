@@ -49,7 +49,7 @@ const Banner = () => {
     return () => {
       clearInterval(ticker);
     };
-  }, [text, delta, tick]);
+  }, [text]);
 
   return (
     <section className="banner" id="home">
