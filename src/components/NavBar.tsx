@@ -76,7 +76,7 @@ const NavBar = () => {
                 <img src={navIcon1} alt="" />
               </a>
 
-              <a href="" className="">
+              <a href="#" className="">
                 <img src={navIcon2} alt="" />
               </a>
 

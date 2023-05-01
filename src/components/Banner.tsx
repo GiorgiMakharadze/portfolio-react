@@ -10,7 +10,7 @@ const Banner = () => {
   const [isDeleting, setIsDeleting] = useState<boolean>(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const [index, setIndex] = useState(1);
+  const [, setIndex] = useState(1);
 
   const toRotate = ["Full-Stack", "Developer"];
   const period = 2000;
@@ -88,7 +88,7 @@ const Banner = () => {
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src={HeaderImg} alt="Header Omg" />
+            <img src={HeaderImg} />
           </Col>
         </Row>
       </Container>
