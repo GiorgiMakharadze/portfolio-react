@@ -1,5 +1,7 @@
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
+import "animate.css";
+import TrackVisibility from "react-on-screen";
 import ProjectCard from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import ecomerceapi from "../assets/img/projects/ecomerceapi.png";
@@ -9,7 +11,6 @@ import jobsapi from "../assets/img/projects/jobsapi.png";
 import brandshop from "../assets/img/projects/brandshop.png";
 import omnifood from "../assets/img/projects/omnifood.png";
 import starwars from "../assets/img/projects/starwars.png";
-import taskmanager from "../assets/img/projects/taskmanager.png";
 import taskmanager2 from "../assets/img/projects/taskmanage2.png";
 import fileupload from "../assets/img/projects/fileupload.png";
 
@@ -83,24 +84,34 @@ const Projects = () => {
       <Container>
         <Row>
           <Col>
-            <h2>Projects</h2>
-            <p>
-              Leveraging my experience as a Full Stack Developer, I have
-              successfully delivered various types of projects across diverse
-              industries. My proficiency in front-end development with React.js
-              and Next.js, coupled with my expertise in back-end development
-              using Node.js and Express.js, enables me to excel in the MERN
-              stack.{" "}
-              <span className="skills-header">
-                To see all my projects, visit{" "}
-                <a
-                  href="https://github.com/GiorgiMakharadze"
-                  className="github-link"
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <div
+                  className={
+                    isVisible ? "animated__animated animated__slideInUp" : ""
+                  }
                 >
-                  GitHub
-                </a>
-              </span>
-            </p>
+                  <h2>Projects</h2>
+                  <p>
+                    Leveraging my experience as a Full Stack Developer, I have
+                    successfully delivered various types of projects across
+                    diverse industries. My proficiency in front-end development
+                    with React.js and Next.js, coupled with my expertise in
+                    back-end development using Node.js and Express.js, enables
+                    me to excel in the MERN stack.{" "}
+                    <span className="skills-header">
+                      To see all my projects, visit{" "}
+                      <a
+                        href="https://github.com/GiorgiMakharadze"
+                        className="github-link"
+                      >
+                        GitHub
+                      </a>
+                    </span>
+                  </p>
+                </div>
+              )}
+            </TrackVisibility>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav
                 variant="pills"

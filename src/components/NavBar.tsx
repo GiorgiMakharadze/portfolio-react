@@ -58,7 +58,7 @@ const NavBar = () => {
               Skills
             </Nav.Link>
             <Nav.Link
-              href="#projects"
+              href="#project"
               className={
                 activeLink === "projects" ? "active navbar-link" : "navbar-link"
               }
@@ -76,7 +76,7 @@ const NavBar = () => {
                 <img src={navIcon1} alt="" />
               </a>
 
-              <a href="#" className="">
+              <a href="" className="">
                 <img src={navIcon2} alt="" />
               </a>
 
@@ -84,9 +84,6 @@ const NavBar = () => {
                 <img src={navIcon3} alt="" />
               </a>
             </div>
-            <button className="vvd" onClick={() => console.log("form")}>
-              <span>Let's connect</span>
-            </button>
           </span>
         </Navbar.Collapse>
       </Container>
