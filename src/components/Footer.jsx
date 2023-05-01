@@ -17,7 +17,7 @@ export const Footer = () => {
               <a href="https://www.linkedin.com/in/giorgi-makharadze-a8100125b/">
                 <img src={navIcon1} alt="Icon" />
               </a>
-              <a href="#">
+              <a href="https://www.facebook.com/profile.php?id=100009783763902">
                 <img src={navIcon2} alt="Icon" />
               </a>
               <a href="#">

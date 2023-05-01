@@ -1,12 +1,6 @@
 import { Col } from "react-bootstrap";
-import { IProjectCardProps } from "../../types/projectCardProps";
 
-const ProjectCard = ({
-  title,
-  description,
-  imageUrl,
-  url,
-}: IProjectCardProps) => {
+const ProjectCard = ({ title, description, imageUrl, url }) => {
   return (
     <Col size={12} sm={6} md={4}>
       <div className="proj-imgbx">

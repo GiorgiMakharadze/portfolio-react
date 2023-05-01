@@ -2,4 +2,4 @@
 
 ## Used Technologies
 
-React.js, Typescript, animate.css
+React.js, Javascript, Bootstrap, animate.css

@@ -6,8 +6,8 @@ import TrackVisibility from "react-on-screen";
 import HeaderImg from "../assets/img/header-img.svg";
 
 const Banner = () => {
-  const [loopNum, setLoopNum] = useState<number>(0);
-  const [isDeleting, setIsDeleting] = useState<boolean>(false);
+  const [loopNum, setLoopNum] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [, setIndex] = useState(1);

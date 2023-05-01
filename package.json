@@ -5,14 +5,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "test": "react-scripts test"
   },
   "browserslist": {
     "production": [
@@ -29,7 +22,6 @@
   "dependencies": {
     "animate.css": "^4.1.1",
     "bootstrap": "^5.2.3",
-    "cra-template-typescript": "1.2.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-bootstrap-icons": "^1.10.3",
@@ -37,8 +29,5 @@
     "react-multi-carousel": "^2.8.3",
     "react-on-screen": "^2.1.1",
     "react-scripts": "5.0.1"
-  },
-  "devDependencies": {
-    "@types/react-dom": "^18.2.1"
   }
 }

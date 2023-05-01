@@ -8,8 +8,8 @@ import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 
 const NavBar = () => {
-  const [activeLink, setActiveLink] = useState<string>("home");
-  const [scrolled, setScrolled] = useState<boolean>(false);
+  const [activeLink, setActiveLink] = useState("home");
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const onScroll = () => {
@@ -24,7 +24,7 @@ const NavBar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const onUpdateActiveLink = (value: string) => {
+  const onUpdateActiveLink = (value) => {
     setActiveLink(value);
   };
 
@@ -76,7 +76,10 @@ const NavBar = () => {
                 <img src={navIcon1} alt="" />
               </a>
 
-              <a href="#" className="">
+              <a
+                href="https://www.facebook.com/profile.php?id=100009783763902"
+                className=""
+              >
                 <img src={navIcon2} alt="" />
               </a>
 
